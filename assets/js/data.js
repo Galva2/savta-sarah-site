@@ -36,7 +36,8 @@ const SITE = {
     { src: "assets/img/gallery/savta-01.jpg", caption: "2004" },
     { src: "assets/img/gallery/savta-08.jpg", caption: "" },
     { src: "assets/img/gallery/savta-03.jpg", caption: "2004" },
-    { src: "assets/img/gallery/savta-07.jpg", caption: "" }
+    { src: "assets/img/gallery/savta-07.jpg", caption: "" },
+    { src: "assets/img/gallery/savta-09.jpg", caption: "" }
   ]
 };
 

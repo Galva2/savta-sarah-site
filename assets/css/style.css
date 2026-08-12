@@ -513,18 +513,31 @@ main { flex: 1 0 auto; }
 /* ==========================================================================
    Gallery marquee
    ========================================================================== */
-.gallery { overflow: hidden; padding-block: clamp(1rem, 3vw, 2rem); }
+/* A real scroll container rather than a CSS transform, so a finger can just
+   push the strip along. The drift is done in JS by nudging scrollLeft, which
+   the user can interrupt at any moment — a transform animation cannot be
+   grabbed like that. No arrows, no dots, no scrollbar: you just swipe. */
+.gallery {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-block: clamp(1rem, 3vw, 2rem);
+  /* photographs have no reading order, and LTR keeps scrollLeft counting up
+     from zero in every browser — RTL scroll coordinates are a minefield */
+  direction: ltr;
+  scroll-behavior: auto;              /* must not inherit the page's smooth scroll */
+  overscroll-behavior-x: contain;     /* swiping the strip must not trigger back-navigation */
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;              /* Firefox */
+  -ms-overflow-style: none;           /* old Edge */
+  cursor: grab;
+}
+.gallery::-webkit-scrollbar { display: none; }   /* Chrome, Safari */
+.gallery:active { cursor: grabbing; }
+
 .gallery__track {
   display: flex;
   gap: 1.25rem;
   width: max-content;
-  animation: marquee 46s linear infinite;
-}
-.gallery:hover .gallery__track,
-.gallery:focus-within .gallery__track { animation-play-state: paused; }
-@keyframes marquee {
-  from { transform: translateX(0); }
-  to   { transform: translateX(50%); }   /* RTL: content duplicated once */
 }
 
 /* Every photo is a print taped into an album */
@@ -1196,7 +1209,8 @@ body.cook-on { overflow: hidden; }
     transition-duration: .001ms !important;
     scroll-behavior: auto !important;
   }
-  .gallery__track { animation: none; overflow-x: auto; }
+  /* the gallery no longer animates in CSS — JS skips the drift on its own,
+     and the strip stays swipeable by hand */
 }
 
 @media print {

@@ -100,8 +100,30 @@ the family's consent and limited to the grandmother herself.
 cupcake, drumstick, eggplant, lettuce, measuringcup, onion, pancake, pretzel,
 rollingpin, tomato.
 
-האייקונים האלה משמשים גם כממלאי־מקום בכרטיסי המתכונים שאין להם תמונה — כל מתכון
-מקבל אייקון אחר מהרשימה לפי מיקומו בקטגוריה, כדי שלא תחזור אותה תמונה בכל השורות.
+### האייקון של כל מתכון
+
+לכל מתכון יש שדה `icon` — האייקון שמופיע בכרטיס שלו ברשימה, ומתאים למנה עצמה:
+מרק מקבל קערת מרק, קציצות מקבלות קציצות, מלפפון חמוץ מקבל צנצנת.
+
+```js
+icon: "soup.svg",     // שם הקובץ בתוך assets/img/icons/, כולל הסיומת
+```
+
+אם משמיטים את השדה, נבחר אייקון מרשימת הקטגוריה — אז מתכון חדש לא יישבר גם בלי זה.
+
+**האייקונים הזמינים** (`assets/img/icons/`):
+
+| מקור | קבצים |
+|-------|--------|
+| Streamline (PNG) | candy, carrot, celery, chicken, corn, cucumber, cupcake, drumstick, eggplant, lettuce, measuringcup, onion, pancake, pear, pretzel, rollingpin, tomato |
+| צוירו לאתר (SVG) | bread, cheese-dumpling, cookie, doughnut, dumpling, lentils, meatballs, noodles, pan, pasta, pickle-jar, salad, soup |
+
+ה-SVG-ים צוירו במיוחד כי לחבילת Streamline לא היו קערת מרק, קציצות, סופגנייה
+או עוגייה. הם באותו סגנון: קו שחור אחיד, בלי מילוי, `viewBox` של 48×48 ועובי
+קו 2.2. אפשר להוסיף עוד באותו תבנית.
+
+כמה מתכונים חולקים אייקון בכוונה — שלוש מנות הקציצות מקבלות את אותן קציצות,
+כי זה באמת אותו דבר.
 
 ### כותרות ביניים ברשימת המצרכים
 

@@ -29,10 +29,14 @@ const SITE = {
 
   /* הגלריה בדף הבית. הכיתוב הוא השנה מתוך נתוני התמונה עצמה. */
   photos: [
-    { src: "assets/img/gallery/savta-01.jpg", caption: "2004" },
     { src: "assets/img/gallery/savta-02.jpg", caption: "2004" },
+    { src: "assets/img/gallery/savta-06.jpg", caption: "" },
+    { src: "assets/img/gallery/savta-04.jpg", caption: "2005" },
+    { src: "assets/img/gallery/savta-05.jpg", caption: "" },
+    { src: "assets/img/gallery/savta-01.jpg", caption: "2004" },
+    { src: "assets/img/gallery/savta-08.jpg", caption: "" },
     { src: "assets/img/gallery/savta-03.jpg", caption: "2004" },
-    { src: "assets/img/gallery/savta-04.jpg", caption: "2005" }
+    { src: "assets/img/gallery/savta-07.jpg", caption: "" }
   ]
 };
 

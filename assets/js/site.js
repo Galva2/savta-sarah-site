@@ -192,6 +192,57 @@
     const html = items.map(frame).join("");
     track.innerHTML = html + html;          // מוכפל כדי שהגלילה תיראה אינסופית
     track.setAttribute("aria-label", t("galleryTitle"));
+
+    initGalleryDrift();
+  }
+
+  /* הגלריה נגללת באצבע כמו כל רצועה, ובנוסף זזה לבד לאט.
+     התזוזה נעשית ע"י דחיפת scrollLeft ולא באנימציית CSS — ככה אפשר
+     לתפוס אותה באמצע. נגיעה עוצרת אותה, ואחרי כמה שניות היא חוזרת. */
+  function initGalleryDrift() {
+    const gal   = $(".gallery");
+    const track = $(".gallery__track");
+    if (!gal || !track) return;
+
+    const half = () => track.scrollWidth / 2;   // התוכן מוכפל, אז חצי = מחזור שלם
+
+    // גלישה חלקה בין הסוף להתחלה, אבל לא באמצע תנועה של האצבע
+    let settle = null;
+    gal.addEventListener("scroll", () => {
+      clearTimeout(settle);
+      settle = setTimeout(() => {
+        const h = half();
+        if (h < 10) return;
+        if (gal.scrollLeft >= h)     gal.scrollLeft -= h;
+        else if (gal.scrollLeft < 1) gal.scrollLeft += h;
+      }, 140);
+    }, { passive: true });
+
+    if (prefersReducedMotion()) return;         // בלי תזוזה עצמונית
+
+    let hold = 0;                               // עד מתי לא לזוז אחרי מגע
+    let over = false;                           // העכבר מרחף מעל
+    let last = performance.now();
+
+    const pause = () => { hold = performance.now() + 2500; };
+    ["pointerdown", "touchstart", "wheel"].forEach((ev) =>
+      gal.addEventListener(ev, pause, { passive: true }));
+    gal.addEventListener("pointerenter", () => { over = true; });
+    gal.addEventListener("pointerleave", () => { over = false; });
+
+    function step(now) {
+      const dt = Math.min(now - last, 60);
+      last = now;
+      if (!over && now > hold && document.visibilityState === "visible") {
+        const h = half();
+        if (h > 10) {
+          gal.scrollLeft += dt * 0.022;         // בערך 22 פיקסלים לשנייה
+          if (gal.scrollLeft >= h) gal.scrollLeft -= h;
+        }
+      }
+      requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
   }
 
   /* --- רשת הקטגוריות -------------------------------------------------------- */
@@ -235,8 +286,18 @@
   }
 
   function initCategoryTouch() {
+    /* מנקים תמיד, גם אם אין מסך מגע: כשחוזרים אחורה בדפדפן הדף משוחזר
+       מהזיכרון עם המחלקה שנשארה עליו, והאייקונים נתקעים באמצע התנועה. */
+    const clearBursts = () => $$(".cat").forEach((c) => {
+      c.classList.remove("is-burst");
+      delete c.dataset.burst;
+    });
+    window.addEventListener("pageshow", clearBursts);
+    window.addEventListener("focus", clearBursts);
+
     if (!window.matchMedia("(hover: none)").matches) return;
     if (prefersReducedMotion()) return;
+
     $$(".cat").forEach((cat) => {
       cat.addEventListener("click", (e) => {
         if (cat.dataset.burst) return;
@@ -244,6 +305,8 @@
         cat.dataset.burst = "1";
         cat.classList.add("is-burst");
         setTimeout(() => { location.href = cat.href; }, 280);
+        // אם המעבר לא קרה מסיבה כלשהי — לא להשאיר אותם רצים לנצח
+        setTimeout(clearBursts, 1500);
       });
     });
   }

@@ -1063,14 +1063,14 @@ body.cook-on { overflow: hidden; }
 }
 .about__prose > * + * { margin-top: 1rem; }
 .about__prose h2 { margin-top: 2rem; font-size: 1.5rem; }
+/* No frame here — the garlic stands on its own. It was a taped-photo frame
+   while it was standing in for a picture of Savta; as a logo it needs none. */
 .about__portrait {
-  padding: .8rem .8rem 2.2rem;
-  background: #fffdf7;
-  border: 2px solid var(--ink);
-  border-radius: 3px;
-  box-shadow: var(--shadow-lift);
-  transform: rotate(-1.5deg);
+  display: grid;
+  place-items: start center;
+  padding: 0;
 }
+.about__portrait img { width: min(100%, 230px); }
 
 /* ==========================================================================
    Empty state

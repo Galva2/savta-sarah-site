@@ -18,12 +18,14 @@ const SITE = {
   /* ⚠️ טיוטה לאישור: הטקסט שליד השלט בדף הבית. */
   intro: {
     he: [
-      "שנים שלמות המתכונים של סבתא שרה חיו בפתקים, במחברת אחת מרופטת ובשיחות טלפון באמצע הבישול. אספנו אותם לכאן, למקום אחד, כדי שלא ילכו לאיבוד.",
-      "כל מתכון כתוב בדיוק כמו שסבתא מכינה אותו — בלי סיפורים ארוכים, רק מה שצריך: מצרכים, שלבים, וזהו. פותחים את הטלפון במטבח ומתחילים."
+      "שנים שלמות המתכונים של סבתא שרה חיו בפתקים, במחברת אחת מרופטת ובשיחות טלפון באמצע הבישול. אספנו אותם לכאן כדי שלא ילכו לאיבוד.",
+      "סבתא עלתה מרומניה, ואיתה הגיעו הטעמים שהיא מבשלת לנו מאז שאנחנו זוכרים. האתר הזה נבנה מתוך רצון לשמר אותם.",
+      "כל מתכון כתוב בדיוק כמו שהיא מכינה אותו: מצרכים, שלבים, וזהו. פותחים את הטלפון במטבח ומתחילים."
     ],
     en: [
-      "For years Savta Sara's recipes lived on scraps of paper, in one battered notebook, and in phone calls made halfway through cooking. We gathered them here, in one place, so none of them get lost.",
-      "Every recipe is written exactly the way she makes it — no long stories, just what you need: ingredients, steps, done. Open your phone in the kitchen and start."
+      "For years Savta Sara's recipes lived on scraps of paper, in one battered notebook, and in phone calls made halfway through cooking. We gathered them here so none of them get lost.",
+      "She came to Israel from Romania, and the tastes came with her — she has cooked them for us for as long as we can remember. This site was built to keep them.",
+      "Every recipe is written the way she makes it: ingredients, steps, done. Open your phone in the kitchen and start."
     ]
   },
 
@@ -195,18 +197,26 @@ const ABOUT = {
   he: [
     { p: "האתר הזה הוא ניסיון לאסוף במקום אחד את כל מה שיצא מהמטבח של סבתא שרה. חלק מהמתכונים היו כתובים על פתקים, חלק במחברת, והרבה מהם היו קיימים רק בראש שלה ובטלפון באמצע הבישול." },
     { p: "ישבנו, שאלנו, כתבנו, ובעיקר טעמנו. מה שיצא נמצא כאן — פתוח לכל המשפחה, מכל טלפון, בכל שעה." },
+    { h: "מרומניה למטבח שלנו" },
+    { p: "סבתא שרה עלתה מרומניה, והביאה איתה את הטעמים של הבית שגדלה בו. חלק מהמתכונים כאן — הפפנש, הפרפרים — הגיעו איתה משם, והיא מבשלת אותם לנו מאז שאנחנו זוכרים. האתר הזה נבנה מתוך שאיפה לשמר אותם: לא רק את המצרכים והשלבים, אלא את הטעם עצמו." },
     { h: "איך זה בנוי" },
     { p: "המתכונים מסודרים בחמש קטגוריות: סלטים, מרקים, עיקריות, תוספות וקינוחים. אפשר לדפדף לפי קטגוריה, או פשוט לחפש למעלה — החיפוש עובד גם על שמות מתכונים וגם על מצרכים, אז אם יש בבית חצילים אפשר להקליד ״חציל״ ולראות מה יוצא." },
     { p: "בכל דף מתכון אפשר לסמן מצרכים בזמן הקנייה או הבישול, כדי לא לאבד את המקום." },
+    { h: "העבודה עוד לא נגמרה" },
+    { p: "נשארו עוד מתכונים — במחברת, בפתקים, ובעיקר בראש של סבתא. אנחנו ממשיכים לאסוף, והאתר ימשיך להתעדכן." },
     { h: "למה שום" },
     { p: "כי אין מתכון אחד של סבתא שלא מתחיל בשן שום." }
   ],
   en: [
     { p: "This site is an attempt to gather everything that came out of Savta Sara's kitchen into one place. Some of the recipes were written on scraps of paper, some in a notebook, and plenty of them existed only in her head and over the phone mid-cooking." },
     { p: "We sat down, asked, wrote, and mostly tasted. What came out of it is here — open to the whole family, from any phone, at any hour." },
+    { h: "From Romania to our kitchen" },
+    { p: "Savta Sara came to Israel from Romania, bringing the tastes of the house she grew up in. Some of the recipes here — the papanași, the minciunele — travelled with her, and she has cooked them for us for as long as we can remember. This site was built to keep them: not just the ingredients and the steps, but the taste itself." },
     { h: "How it works" },
     { p: "The recipes are sorted into five categories: salads, soups, mains, sides and desserts. Browse by category, or just search at the top — search covers recipe names and ingredients alike, so if there are aubergines in the house, type “aubergine” and see what turns up." },
     { p: "On every recipe page you can tick ingredients off as you shop or cook, so you don't lose your place." },
+    { h: "Still collecting" },
+    { p: "There are more recipes to come — in the notebook, on scraps of paper, and mostly in Savta's head. We are still gathering them, and this site will keep growing." },
     { h: "Why garlic" },
     { p: "Because there isn't a single recipe of Savta's that doesn't start with a clove of it." }
   ]

@@ -1,3 +1,41 @@
+# Savta Sara's Recipes
+
+A bilingual (Hebrew/English) static recipe site built for one family's
+grandmother, so her recipes stop living on scraps of paper.
+
+**Live:** *(link goes here once deployed)*
+
+Plain HTML, CSS and JavaScript — no framework, no build step, no backend.
+Open `index.html` and it runs.
+
+### What's interesting in here
+
+- **Bilingual from one set of pages.** Hebrew RTL and English LTR share the
+  same four HTML files. Language lives in the URL (`?lang=en`), persists across
+  navigation, and flips `dir` — the layout mirrors itself through CSS logical
+  properties.
+- **Cook-along mode.** Full-screen, one step at a time, with a Wake Lock so the
+  phone doesn't sleep mid-recipe. Swipe, arrow keys or buttons; arrow direction
+  follows the reading direction of the active language.
+- **Two typefaces, metric-matched.** The Hebrew face (Yarden) has no Latin
+  glyphs at all, so English needed its own. Poppins was chosen for matching
+  geometry, and its x-height turned out to be within 0.4% of Yarden's — so body
+  copy needs no size compensation, only headings do.
+- **Everything self-hosted.** Fonts, icons, images. No CDN, no external request.
+- **Content is one file.** `assets/js/data.js` holds all 24 recipes, both
+  languages, all UI strings. Adding a recipe means copying one object.
+
+### Notes
+
+Recipes are a real family's, transcribed as given. Photographs are used with
+the family's consent and limited to the grandmother herself.
+
+---
+
+*התיעוד המלא בעברית מתחיל כאן ↓*
+
+---
+
 # מתכוני סבתא שרה — אתר משפחתי
 
 אתר סטטי (HTML/CSS/JS בלבד). אין שרת, אין בסיס נתונים, אין תלות באינטרנט חיצוני.

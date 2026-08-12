@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>מתכוני סבתא שרה</title>
+<meta name="description" content="כל המתכונים של סבתא שרה במקום אחד — סלטים, מרקים, עיקריות, תוספות וקינוחים.">
+<link rel="icon" href="assets/img/logo.png">
+<link rel="preload" href="assets/fonts/yarden-regular-alefalefalef.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/yarden-bold-alefalefalef.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/poppins-regular-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/poppins-bold-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css?v=20260811t">
+</head>
+<body>
+
+<a class="skip-link" href="#main" data-i18n="skip">דילוג לתוכן</a>
+
+<header class="masthead">
+  <div class="wrap masthead__inner">
+
+    <a class="brand" href="index.html">
+      <img class="brand__mark" src="assets/img/logo.png" alt="">
+      <img class="brand__wordmark" src="assets/img/wordmark.png" alt="Savta Sara's Recipes">
+    </a>
+
+    <button class="burger" type="button" aria-expanded="false" aria-label="פתיחת תפריט" data-i18n-attr="aria-label:menuOpen">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+        <path d="M3 6h18M3 12h18M3 18h18"/>
+      </svg>
+    </button>
+
+    <nav class="nav" aria-label="ראשי">
+      <a class="nav__link" href="index.html" data-i18n="navHome">דף בית</a>
+
+      <div class="nav__group">
+        <button class="nav__link nav__toggle" type="button" aria-expanded="false" aria-controls="cat-menu">
+          <span data-i18n="navRecipes">מתכונים</span>
+          <svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 1.5 6 6.5l5-5"/></svg>
+        </button>
+        <div class="nav__menu" id="cat-menu"></div>
+      </div>
+
+      <a class="nav__link" href="about.html" data-i18n="navAbout">עלינו</a>
+    </nav>
+
+    <form class="search" role="search">
+      <label class="visually-hidden" for="q" data-i18n="searchLabel">חיפוש מתכון</label>
+      <input class="search__input" id="q" type="search" placeholder="חיפוש מתכון או מצרך…" autocomplete="off" data-i18n-attr="placeholder:searchPlace">
+      <button class="search__btn" type="submit" aria-label="חיפוש" data-i18n-attr="aria-label:searchBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
+        </svg>
+      </button>
+    </form>
+
+    <button class="langbtn" type="button" aria-label="Switch to English">EN</button>
+
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="hero wrap">
+    <div class="hero__grid">
+
+      <div class="signpost">
+        <div class="signpost__stack">
+          <img id="signpost-img" src="assets/img/street-sign.png" alt="" width="380">
+          <!-- the post keeps going down the page and fades out behind the photos -->
+          <span class="signpost__post" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <div class="intro">
+        <span class="intro__eyebrow" data-i18n="heroEyebrow">מטבח אחד · דורות שלמים</span>
+        <h1 class="intro__title"><span data-i18n="heroTitleA">המתכונים של</span> <em data-i18n="heroTitleB">סבתא שרה</em></h1>
+        <div id="intro-copy"></div>
+        <div class="intro__actions">
+          <a class="btn" href="recipes.html" data-i18n="heroBtnAll">לכל המתכונים</a>
+          <a class="btn btn--ghost" href="about.html" data-i18n="heroBtnAbout">קצת עלינו</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section--tight" aria-labelledby="gallery-title">
+    <h2 class="visually-hidden" id="gallery-title" data-i18n="galleryTitle">תמונות מהאלבום המשפחתי</h2>
+    <div class="gallery">
+      <div class="gallery__track"></div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section wrap" aria-labelledby="cats-title">
+    <div class="section__head">
+      <h2 class="section__title" id="cats-title" data-i18n="catsTitle">מה מבשלים היום?</h2>
+    </div>
+    <div class="cats"></div>
+    <img class="mascot" src="assets/img/logo.png" alt="" aria-hidden="true">
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <nav class="footer__links" aria-label="תחתון">
+      <a href="index.html" data-i18n="navHome">דף בית</a>
+      <a href="recipes.html" data-i18n="navRecipes">מתכונים</a>
+      <a href="about.html" data-i18n="navAbout">עלינו</a>
+    </nav>
+    <p><span data-i18n="siteName">המתכונים של סבתא שרה</span> · <span data-i18n="footerTag">נבנה באהבה למשפחה</span></p>
+  </div>
+</footer>
+
+<script src="assets/js/data.js?v=20260811t"></script>
+<script src="assets/js/site.js?v=20260811t"></script>
+</body>
+</html>

@@ -254,19 +254,23 @@
     const loc  = recipeLoc(r);
     const meta = [pick(r.time), pick(r.servings)].filter(Boolean).join(" · ");
 
-    /* בלי תמונת מנה, כרטיס מקבל אייקון מתוך רשימת הקטגוריה — לפי מיקום המתכון
-       בקטגוריה, כדי שלא יופיע אותו אייקון בכל השורות. */
-    let placeholder = "tomato";
-    if (cat && cat.icons && cat.icons.length) {
+    /* האייקון של המתכון עצמו (r.icon). אם אין — נופלים לרשימת הקטגוריה,
+       לפי מיקום המתכון בה, כדי שלא יחזור אותו אייקון בכל השורות. */
+    let placeholder;
+    if (r.icon) {
+      placeholder = "assets/img/icons/" + r.icon;
+    } else if (cat && cat.icons && cat.icons.length) {
       const idx = recipesIn(r.category).findIndex((x) => x.id === r.id);
-      placeholder = cat.icons[(idx < 0 ? 0 : idx) % cat.icons.length];
+      placeholder = iconUrl(cat.icons[(idx < 0 ? 0 : idx) % cat.icons.length]);
+    } else {
+      placeholder = iconUrl("tomato");
     }
 
     return `<article class="card">
       <div class="card__media">
         ${r.image
           ? `<img src="${esc(r.image)}" alt="${esc(loc.title)}" loading="lazy">`
-          : `<img class="card__placeholder" src="${iconUrl(placeholder)}" alt="" loading="lazy">`}
+          : `<img class="card__placeholder" src="${esc(placeholder)}" alt="">`}
       </div>
       <div class="card__body">
         <h3 class="card__title"><a href="${recipeUrl(r)}">${esc(loc.title)}</a></h3>

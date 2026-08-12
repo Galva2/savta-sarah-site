@@ -236,7 +236,7 @@
       if (!over && now > hold && document.visibilityState === "visible") {
         const h = half();
         if (h > 10) {
-          gal.scrollLeft += dt * 0.022;         // בערך 22 פיקסלים לשנייה
+          gal.scrollLeft += dt * 0.034;         // בערך 34 פיקסלים לשנייה
           if (gal.scrollLeft >= h) gal.scrollLeft -= h;
         }
       }

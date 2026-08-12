@@ -232,6 +232,7 @@ const RECIPES = [
   {
     id: "salat-selek-kolrabi-gezer",
     category: "salads",
+    icon: "salad.svg",
     image: "", time: "", servings: "",
     he: {
       title: "סלט סלק, קולורבי וגזר",
@@ -267,6 +268,7 @@ const RECIPES = [
   {
     id: "chatzilim-charifim",
     category: "salads",
+    icon: "eggplant.png",
     image: "", time: "", servings: "",
     he: {
       title: "חצילים חריפים",
@@ -310,6 +312,7 @@ const RECIPES = [
   {
     id: "melafefon-chamutz",
     category: "salads",
+    icon: "pickle-jar.svg",
     image: "", time: "", servings: "",
     he: {
       title: "מלפפון חמוץ",
@@ -351,6 +354,7 @@ const RECIPES = [
   {
     id: "marak-tapuchei-adama",
     category: "soups",
+    icon: "soup.svg",
     image: "", time: "", servings: "",
     he: {
       title: "מרק תפוחי אדמה",
@@ -390,6 +394,7 @@ const RECIPES = [
   {
     id: "marak-adashim-adumim",
     category: "soups",
+    icon: "lentils.svg",
     image: "", time: "", servings: "",
     he: {
       title: "מרק עדשים אדומים",
@@ -433,6 +438,7 @@ const RECIPES = [
   {
     id: "marak-yerakot",
     category: "soups",
+    icon: "soup.svg",
     image: "", time: "", servings: "",
     he: {
       title: "מרק ירקות",
@@ -478,6 +484,7 @@ const RECIPES = [
   {
     id: "marak-afuna-yevesha",
     category: "soups",
+    icon: "lentils.svg",
     image: "", time: "", servings: "",
     he: {
       title: "מרק אפונה יבשה",
@@ -517,6 +524,7 @@ const RECIPES = [
   {
     id: "kaved-yerakot",
     category: "mains",
+    icon: "pan.svg",
     image: "", time: "", servings: "",
     he: {
       title: "כבד עם ירקות",
@@ -558,6 +566,7 @@ const RECIPES = [
   {
     id: "ktzitzot-rotev-afuna",
     category: "mains",
+    icon: "meatballs.svg",
     image: "", time: "", servings: "",
     he: {
       title: "קציצות ברוטב עגבניות עם אפונה",
@@ -615,6 +624,7 @@ const RECIPES = [
   {
     id: "ktzitzot-of",
     category: "mains",
+    icon: "meatballs.svg",
     image: "", time: "", servings: "",
     he: {
       title: "קציצות בשר עוף",
@@ -668,6 +678,7 @@ const RECIPES = [
   {
     id: "ktzitzot-shel-bait",
     category: "mains",
+    icon: "meatballs.svg",
     image: "", time: "", servings: "",
     he: {
       title: "קציצות של בית",
@@ -717,6 +728,7 @@ const RECIPES = [
   {
     id: "of-bechumus",
     category: "mains",
+    icon: "drumstick.png",
     image: "", time: "", servings: "",
     he: {
       title: "עוף בחומוס (חומוס אפוי)",
@@ -756,6 +768,7 @@ const RECIPES = [
   {
     id: "chazeh-of-berotev",
     category: "mains",
+    icon: "chicken.png",
     image: "", time: "", servings: "",
     he: {
       title: "נתחי חזה עוף ברוטב",
@@ -801,6 +814,7 @@ const RECIPES = [
   {
     id: "rotev-bolognez",
     category: "mains",
+    icon: "pasta.svg",
     image: "", time: "", servings: "",
     he: {
       title: "רוטב בולונז",
@@ -852,6 +866,7 @@ const RECIPES = [
   {
     id: "batzkaniot",
     category: "sides",
+    icon: "dumpling.svg",
     image: "", time: "", servings: "",
     he: {
       title: "בצקניות",
@@ -873,6 +888,7 @@ const RECIPES = [
   {
     id: "kreplach",
     category: "sides",
+    icon: "dumpling.svg",
     image: "", time: "", servings: "",
     he: {
       title: "קרפלך",
@@ -914,6 +930,7 @@ const RECIPES = [
   {
     id: "lachmaniot-pesach",
     category: "sides",
+    icon: "bread.svg",
     image: "", time: "", servings: "",
     he: {
       title: "לחמניות לפסח",
@@ -953,6 +970,7 @@ const RECIPES = [
   {
     id: "kugel-yerushalmi",
     category: "sides",
+    icon: "noodles.svg",
     image: "", time: "",
     servings: { he: "5–6 מנות", en: "5–6" },
     he: {
@@ -999,6 +1017,7 @@ const RECIPES = [
   {
     id: "pancake",
     category: "desserts",
+    icon: "pancake.png",
     image: "", time: "", servings: "",
     he: {
       title: "פנקייק",
@@ -1028,6 +1047,7 @@ const RECIPES = [
   {
     id: "papanash",
     category: "desserts",
+    icon: "cheese-dumpling.svg",
     image: "", time: "", servings: "",
     he: {
       title: "פפנש",
@@ -1069,6 +1089,7 @@ const RECIPES = [
   {
     id: "agasim-karamel",
     category: "desserts",
+    icon: "pear.png",
     image: "", time: "", servings: "",
     he: {
       title: "אגסים בקרמל",
@@ -1104,6 +1125,7 @@ const RECIPES = [
   {
     id: "ugiyot-kvaker",
     category: "desserts",
+    icon: "cookie.svg",
     image: "", time: "", servings: "",
     he: {
       title: "עוגיות קוואקר (שיבולת שועל)",
@@ -1147,6 +1169,7 @@ const RECIPES = [
   {
     id: "sufganiyot",
     category: "desserts",
+    icon: "doughnut.svg",
     image: "", time: "", servings: "",
     he: {
       title: "סופגניות",
@@ -1202,6 +1225,7 @@ const RECIPES = [
   {
     id: "minciunele",
     category: "desserts",
+    icon: "pretzel.png",
     image: "", time: "", servings: "",
     he: {
       title: "פרפרים (Minciunele)",

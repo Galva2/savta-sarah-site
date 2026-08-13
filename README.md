@@ -36,7 +36,7 @@ the family's consent and limited to the grandmother herself.
 
 ---
 
-# מתכוני סבתא שרה — אתר משפחתי
+# המתכונים של סבתא שרה — אתר משפחתי
 
 אתר סטטי (HTML/CSS/JS בלבד). אין שרת, אין בסיס נתונים, אין תלות באינטרנט חיצוני.
 לפתיחה: לחיצה כפולה על `index.html`.

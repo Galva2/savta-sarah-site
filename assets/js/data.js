@@ -1279,5 +1279,1497 @@ const RECIPES = [
         "Deep fry and dust with icing sugar."
       ]
     }
+  },
+
+  /* ===================== תוספת שנייה של מתכונים =====================
+     Second batch, added later. Same shape as everything above.
+     ================================================================ */
+  {
+    id: "tzli-basar",
+    category: "mains",
+    icon: "pan.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "צלי בשר",
+      ingredients: [
+        "למרינדה:",
+        "1/2 כוס שמן זית",
+        "1/2 כוס סויה",
+        "כוס מים חמים",
+        "גרידת לימון",
+        "כמה טיפות דבש",
+        "לבשר:",
+        "1 ק\"ג אנטריקוט (או עגל)",
+        "20 פטריות",
+        "20 שיני שום כתושות",
+        "ענפי טימין, פלפל חריף",
+        "2 בצלים פרוסים"
+      ],
+      steps: [
+        "מערבבים את כל מצרכי המרינדה.",
+        "שופכים אותה על הבשר יחד עם הפטריות, השום, הטימין, הפלפל החריף והבצל, בתוך כלי."
+      ]
+    },
+    en: {
+      title: "Beef Roast",
+      ingredients: [
+        "For the marinade:",
+        "1/2 cup olive oil",
+        "1/2 cup soy sauce",
+        "1 cup hot water",
+        "Lemon zest",
+        "A few drops of honey",
+        "For the meat:",
+        "1 kg entrecote (or veal)",
+        "20 mushrooms",
+        "20 garlic cloves, crushed",
+        "Thyme sprigs, chilli",
+        "2 onions, sliced"
+      ],
+      steps: [
+        "Mix all the marinade ingredients together.",
+        "Pour it over the meat in a dish, along with the mushrooms, garlic, thyme, chilli and onion."
+      ]
+    }
+  },
+  {
+    id: "ktzitzot-tapuach-adama",
+    category: "mains",
+    icon: "meatballs.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "קציצות עם תפוח אדמה",
+      ingredients: [
+        "לרוטב:",
+        "בצל",
+        "כף רסק עגבניות",
+        "1/2 כפית פפריקה",
+        "1/2 כפית כמון",
+        "1/4 כפית בהרט (כורכום)",
+        "קורט סוכר",
+        "לקציצות (כ-500 גרם בשר טחון):",
+        "בצל קטן קצוץ דק",
+        "שום כתוש",
+        "פטרוזיליה",
+        "כ-7 עלי נענע קצוצים",
+        "1/3 כפית מלח",
+        "1/3 כפית פפריקה",
+        "1/2 כפית כמון",
+        "1/4 כפית פלפל שחור טחון",
+        "תפוחי אדמה"
+      ],
+      steps: [
+        "מערבבים בקערה את כל מצרכי הקציצות.",
+        "לשים ויוצרים קציצות.",
+        "מטגנים בסיר את הבצל והשום.",
+        "מוסיפים את רסק העגבניות, התבלינים והמים ומביאים לרתיחה.",
+        "מסדרים בסיר את תפוחי האדמה והקציצות במעגל.",
+        "מפזרים פטרוזיליה ומבשלים על אש קטנה."
+      ]
+    },
+    en: {
+      title: "Meatballs with Potatoes",
+      ingredients: [
+        "For the sauce:",
+        "1 onion",
+        "1 tbsp tomato paste",
+        "1/2 tsp paprika",
+        "1/2 tsp cumin",
+        "1/4 tsp baharat (turmeric)",
+        "A pinch of sugar",
+        "For the meatballs (about 500 g minced meat):",
+        "1 small onion, finely chopped",
+        "Garlic, crushed",
+        "Parsley",
+        "About 7 mint leaves, chopped",
+        "1/3 tsp salt",
+        "1/3 tsp paprika",
+        "1/2 tsp cumin",
+        "1/4 tsp ground black pepper",
+        "Potatoes"
+      ],
+      steps: [
+        "Mix all the meatball ingredients in a bowl.",
+        "Knead and shape into patties.",
+        "Fry the onion and garlic in a pot.",
+        "Add the tomato paste, spices and water and bring to the boil.",
+        "Arrange the potatoes and meatballs in the pot in a circle.",
+        "Scatter parsley over and cook on a low heat."
+      ]
+    }
+  },
+  {
+    id: "of-batanur",
+    category: "mains",
+    icon: "drumstick.png",
+    image: "", time: "", servings: "",
+    he: {
+      title: "עוף בתנור",
+      ingredients: [
+        "חלקי עוף",
+        "מלח, פלפל, פפריקה (מתוקה או חריפה)",
+        "2 כפות מיונז",
+        "שום, אגוזים"
+      ],
+      steps: [
+        "מערבבים בקערה את כל החומרים.",
+        "מכניסים את העוף לתוך הבלילה ומורחים היטב.",
+        "מפזרים על תבנית מרופדת בנייר אפייה.",
+        "מזלפים שמן ואופים עד שמזהיב."
+      ]
+    },
+    en: {
+      title: "Roast Chicken",
+      ingredients: [
+        "Chicken pieces",
+        "Salt, pepper, paprika (sweet or hot)",
+        "2 tbsp mayonnaise",
+        "Garlic, walnuts"
+      ],
+      steps: [
+        "Mix all the ingredients in a bowl.",
+        "Put the chicken into the mixture and coat it well.",
+        "Spread out on a lined baking tray.",
+        "Drizzle with oil and bake until golden."
+      ]
+    }
+  },
+  {
+    id: "of-kruv-yain",
+    category: "mains",
+    icon: "chicken.png",
+    image: "", time: "", servings: "",
+    he: {
+      title: "עוף עם כרוב ויין",
+      ingredients: [
+        "חלקי עוף",
+        "בצל פרוס",
+        "6 שיני שום",
+        "צרור טימין טרי",
+        "כוס יין לבן",
+        "כרוב לבן מחולק לפלחים",
+        "מלח, פלפל גרוס"
+      ],
+      steps: [
+        "מטגנים את העוף.",
+        "מוסיפים בצל, שום וטימין ומזהיבים קלות.",
+        "מוסיפים יין, כרוב, מלח ופלפל.",
+        "מבשלים."
+      ]
+    },
+    en: {
+      title: "Chicken with Cabbage and Wine",
+      ingredients: [
+        "Chicken pieces",
+        "1 onion, sliced",
+        "6 garlic cloves",
+        "A bunch of fresh thyme",
+        "1 cup white wine",
+        "White cabbage, cut into wedges",
+        "Salt, cracked pepper"
+      ],
+      steps: [
+        "Fry the chicken.",
+        "Add the onion, garlic and thyme and let them colour lightly.",
+        "Add the wine, cabbage, salt and pepper.",
+        "Cook."
+      ]
+    }
+  },
+  {
+    id: "agvaniyot-memulaot",
+    category: "sides",
+    icon: "tomato.png",
+    image: "", time: "", servings: "",
+    he: {
+      title: "עגבניות ממולאות",
+      ingredients: [
+        "2 עגבניות (עם הגבעול)",
+        "300 גרם בשר טחון מטוגן קל",
+        "צרור פטרוזיליה",
+        "בזיליקום",
+        "צנוברים",
+        "מלח, פלפל"
+      ],
+      steps: [
+        "מרוקנים את העגבניות.",
+        "ממלאים בתערובת הבשר, עשבי התיבול והצנוברים.",
+        "מציבים בתבנית ומפזרים סביב את תוכן העגבניות שהוצא.",
+        "אופים כ-20 דקות.",
+        "מגישים עם אורז וטחינה."
+      ]
+    },
+    en: {
+      title: "Stuffed Tomatoes",
+      ingredients: [
+        "2 tomatoes (with the stalk)",
+        "300 g minced beef, lightly fried",
+        "A bunch of parsley",
+        "Basil",
+        "Pine nuts",
+        "Salt, pepper"
+      ],
+      steps: [
+        "Hollow out the tomatoes.",
+        "Fill them with the meat, herbs and pine nuts.",
+        "Stand them in a dish and scatter the scooped-out tomato around them.",
+        "Bake for about 20 minutes.",
+        "Serve with rice and tahini."
+      ]
+    }
+  },
+  {
+    id: "kaved-tapuchei-adama",
+    category: "mains",
+    icon: "pan.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "כבד עם תפוחי אדמה",
+      ingredients: [
+        "כ-500 גרם כבדים",
+        "2 כפות שמן זית",
+        "2 בצלים",
+        "קורט טימין",
+        "שום כתוש",
+        "כפית גדושה פטרוזיליה",
+        "1/2 כפית פלפל שחור",
+        "כף שטוחה מלח",
+        "כף סילאן",
+        "כוס יין אדום יבש"
+      ],
+      steps: [
+        "מטגנים את הבצל והכבדים בשמן.",
+        "מוסיפים את התבלינים, היין והסילאן.",
+        "מבשלים קלות.",
+        "מגישים על פירה תפוחי אדמה."
+      ]
+    },
+    en: {
+      title: "Liver with Potatoes",
+      ingredients: [
+        "About 500 g chicken livers",
+        "2 tbsp olive oil",
+        "2 onions",
+        "A pinch of thyme",
+        "Garlic, crushed",
+        "1 heaped tsp parsley",
+        "1/2 tsp black pepper",
+        "1 level tbsp salt",
+        "1 tbsp silan (date syrup)",
+        "1 cup dry red wine"
+      ],
+      steps: [
+        "Fry the onion and livers in the oil.",
+        "Add the spices, wine and silan.",
+        "Cook gently.",
+        "Serve over mashed potato."
+      ]
+    }
+  },
+  {
+    id: "kadurei-shnitzel",
+    category: "mains",
+    icon: "meatballs.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "כדורי שניצל מאורז",
+      ingredients: [
+        "1/2 ק\"ג בשר עוף טחון",
+        "ביצה",
+        "1/2 כפית חרדל דיז'ון",
+        "2 כפות קמח",
+        "מלח, פלפל",
+        "שקית אבקת אפייה",
+        "טימין או עשבי תיבול",
+        "לציפוי:",
+        "ביצה",
+        "קמח",
+        "פירורי לחם ושומשום"
+      ],
+      steps: [
+        "מערבבים את מצרכי התערובת ויוצרים כדורים.",
+        "משטחים מעט.",
+        "טובלים בקמח, ביצה ופירורי לחם עם שומשום.",
+        "מטגנים בשמן חם עד להזהבה."
+      ]
+    },
+    en: {
+      title: "Schnitzel Balls",
+      ingredients: [
+        "500 g minced chicken",
+        "1 egg",
+        "1/2 tsp Dijon mustard",
+        "2 tbsp flour",
+        "Salt, pepper",
+        "1 sachet baking powder",
+        "Thyme or mixed herbs",
+        "For the coating:",
+        "1 egg",
+        "Flour",
+        "Breadcrumbs and sesame seeds"
+      ],
+      steps: [
+        "Mix the ingredients and roll into balls.",
+        "Flatten them slightly.",
+        "Dip in flour, then egg, then the breadcrumbs and sesame.",
+        "Fry in hot oil until golden."
+      ]
+    }
+  },
+  {
+    id: "of-tapuchim-bira",
+    category: "mains",
+    icon: "chicken.png",
+    image: "", time: "", servings: "",
+    he: {
+      title: "עוף בתפוחים ובירה",
+      ingredients: [
+        "חלקי עוף",
+        "למשרה:",
+        "מיץ מ-3 תפוחים",
+        "2 לימונים",
+        "בקבוק בירה",
+        "כפית מלח",
+        "כף פפריקה",
+        "כף אורגנו",
+        "דבש",
+        "פלפל שחור",
+        "2 תפוחים חתוכים ל-6"
+      ],
+      steps: [
+        "מערבבים בתבנית את מרכיבי המשרה.",
+        "יוצקים אותם על העוף.",
+        "משרים במקרר כשעתיים.",
+        "אופים ב-180 מעלות כשעה ורבע עד שעתיים."
+      ]
+    },
+    en: {
+      title: "Chicken with Apples and Beer",
+      ingredients: [
+        "Chicken pieces",
+        "For the marinade:",
+        "Juice of 3 apples",
+        "2 lemons",
+        "1 bottle of beer",
+        "1 tsp salt",
+        "1 tbsp paprika",
+        "1 tbsp oregano",
+        "Honey",
+        "Black pepper",
+        "2 apples, each cut into 6"
+      ],
+      steps: [
+        "Mix the marinade ingredients in the baking dish.",
+        "Pour it over the chicken.",
+        "Marinate in the fridge for about two hours.",
+        "Bake at 180C for an hour and a quarter to two hours."
+      ]
+    }
+  },
+  {
+    id: "pirjoale",
+    category: "mains",
+    icon: "meatballs.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "פירז'ואלה (Pirjoale)",
+      ingredients: [
+        "1/2 ק\"ג בשר חזה עוף (או בשר טחון)",
+        "בצל קצוץ",
+        "גזר מגורר",
+        "ביצה",
+        "1/4 כפית סודה לשתייה",
+        "פטרוזיליה, שום כתוש",
+        "מלח, פלפל, פירורי לחם"
+      ],
+      steps: [
+        "מערבבים את המצרכים לתערובת אחידה.",
+        "יוצרים קציצות.",
+        "מטגנים בשמן חם משני הצדדים עד להזהבה.",
+        "מגישים עם פירה."
+      ]
+    },
+    en: {
+      title: "Pirjoale",
+      ingredients: [
+        "500 g chicken breast (or minced meat)",
+        "1 onion, chopped",
+        "1 carrot, grated",
+        "1 egg",
+        "1/4 tsp bicarbonate of soda",
+        "Parsley, garlic crushed",
+        "Salt, pepper, breadcrumbs"
+      ],
+      steps: [
+        "Mix the ingredients into a smooth mixture.",
+        "Shape into patties.",
+        "Fry in hot oil on both sides until golden.",
+        "Serve with mashed potato."
+      ]
+    }
+  },
+  {
+    id: "kisonim-basar",
+    category: "mains",
+    icon: "dumpling.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "כיסונים עם בשר",
+      ingredients: [
+        "לבצק:",
+        "כוס קמח רגיל",
+        "1/2 כוס מים",
+        "זילוף שמן זית",
+        "למילוי:",
+        "בשר טחון",
+        "בצל קטן מטוגן",
+        "קורטוב בהרט",
+        "צנוברים",
+        "מלח, אגוזים קצוצים"
+      ],
+      steps: [
+        "לשים בצק ונותנים לו לנוח.",
+        "מערבבים את המילוי.",
+        "מרדדים את הבצק.",
+        "קורצים עיגולים.",
+        "ממלאים.",
+        "סוגרים ומבשלים במים רותחים."
+      ]
+    },
+    en: {
+      title: "Meat Parcels",
+      ingredients: [
+        "For the dough:",
+        "1 cup plain flour",
+        "1/2 cup water",
+        "A drizzle of olive oil",
+        "For the filling:",
+        "Minced meat",
+        "1 small onion, fried",
+        "A pinch of baharat",
+        "Pine nuts",
+        "Salt, chopped walnuts"
+      ],
+      steps: [
+        "Knead the dough and let it rest.",
+        "Mix the filling.",
+        "Roll the dough out.",
+        "Cut out circles.",
+        "Fill them.",
+        "Seal and cook in boiling water."
+      ]
+    }
+  },
+  {
+    id: "alei-gefen",
+    category: "sides",
+    icon: "stuffed-roll.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "עלי גפן ממולאים",
+      ingredients: [
+        "למילוי:",
+        "אורז פרסי שטוף וחלוט במים רותחים",
+        "עגבניות מרוסקות, בהרט, פלפל שחור, מלח, שמן זית, מעט מיץ לימון",
+        "לסיר:",
+        "עגבניות פרוסות ושום קצוץ",
+        "מיץ לימון"
+      ],
+      steps: [
+        "מערבבים את מצרכי המילוי.",
+        "ממלאים בהם את עלי הגפן.",
+        "מניחים בתחתית הסיר פרוסות עגבנייה ושום.",
+        "מסדרים מעליהן את עלי הגפן.",
+        "מוסיפים מיץ לימון ומים עד כיסוי.",
+        "מבשלים על אש קטנה."
+      ]
+    },
+    en: {
+      title: "Stuffed Vine Leaves",
+      ingredients: [
+        "For the filling:",
+        "Persian rice, rinsed and blanched in boiling water",
+        "Crushed tomatoes, baharat, black pepper, salt, olive oil, a little lemon juice",
+        "For the pot:",
+        "Sliced tomatoes and chopped garlic",
+        "Lemon juice"
+      ],
+      steps: [
+        "Mix the filling ingredients.",
+        "Fill the vine leaves with it.",
+        "Line the bottom of the pot with tomato slices and garlic.",
+        "Arrange the vine leaves on top.",
+        "Add lemon juice and water to cover.",
+        "Cook on a low heat."
+      ]
+    }
+  },
+  {
+    id: "kruv-memula",
+    category: "sides",
+    icon: "stuffed-roll.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "כרוב ממולא ללא בשר",
+      ingredients: [
+        "כרוב",
+        "מלח, פלפל שחור, 1/2 כפית עלי דפנה",
+        "2 גבעולי בצל",
+        "400 גרם פטריות",
+        "100 גרם עדשים מושרות",
+        "רוטב עגבניות ושמיר",
+        "גזר, אורז"
+      ],
+      steps: [
+        "קוצצים בצל ומטגנים.",
+        "מוסיפים פטריות חתוכות, גזר מגורר, עדשים ואורז.",
+        "מביאים לרכות.",
+        "ממלאים בתערובת את עלי הכרוב.",
+        "מגלגלים.",
+        "מבשלים עם מים, רוטב עגבניות ותבלינים."
+      ]
+    },
+    en: {
+      title: "Stuffed Cabbage without Meat",
+      ingredients: [
+        "Cabbage",
+        "Salt, black pepper, 1/2 tsp bay leaves",
+        "2 spring onions",
+        "400 g mushrooms",
+        "100 g lentils, soaked",
+        "Tomato sauce and dill",
+        "Carrot, rice"
+      ],
+      steps: [
+        "Chop the onion and fry it.",
+        "Add the sliced mushrooms, grated carrot, lentils and rice.",
+        "Cook until tender.",
+        "Fill the cabbage leaves with the mixture.",
+        "Roll them up.",
+        "Cook with water, tomato sauce and the spices."
+      ]
+    }
+  },
+  {
+    id: "omlet-tunisai",
+    category: "sides",
+    icon: "egg.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "אומלט תפוחי אדמה",
+      ingredients: [
+        "בצל",
+        "פטרוזיליה",
+        "3 ביצים",
+        "פלפל שחור, מלח",
+        "2 תפוחי אדמה",
+        "שמן"
+      ],
+      steps: [
+        "מטגנים בצל קצוץ בשמן.",
+        "בקערה מערבבים ביצים, פטרוזיליה, מלח ופלפל.",
+        "מוסיפים לבצל תפוחי אדמה מבושלים או מטוגנים קלות.",
+        "יוצקים את הבלילה.",
+        "מטגנים משני הצדדים כ-5 דקות בכל צד."
+      ]
+    },
+    en: {
+      title: "Potato Omelette",
+      ingredients: [
+        "1 onion",
+        "Parsley",
+        "3 eggs",
+        "Black pepper, salt",
+        "2 potatoes",
+        "Oil"
+      ],
+      steps: [
+        "Fry the chopped onion in oil.",
+        "In a bowl beat the eggs with parsley, salt and pepper.",
+        "Add boiled or lightly fried potatoes to the onion.",
+        "Pour the egg mixture over.",
+        "Fry about 5 minutes on each side."
+      ]
+    }
+  },
+  {
+    id: "vareniki",
+    category: "sides",
+    icon: "dumpling.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "ורניקי",
+      ingredients: [
+        "לבצק:",
+        "2 כוסות פירה תפוחי אדמה",
+        "2 כפות שמן",
+        "ביצה",
+        "כוס קמח",
+        "1/4 כוס מים מהפירה",
+        "קורט מלח",
+        "למילוי:",
+        "פירה עם בצל מטוגן ומעט פלפל"
+      ],
+      steps: [
+        "מערבבים את מצרכי הבצק.",
+        "מרדדים וחותכים לעיגולים.",
+        "ממלאים כל עיגול במילוי.",
+        "סוגרים היטב ומבשלים במים רותחים."
+      ]
+    },
+    en: {
+      title: "Vareniki",
+      ingredients: [
+        "For the dough:",
+        "2 cups mashed potato",
+        "2 tbsp oil",
+        "1 egg",
+        "1 cup flour",
+        "1/4 cup of the potato water",
+        "A pinch of salt",
+        "For the filling:",
+        "Mashed potato with fried onion and a little pepper"
+      ],
+      steps: [
+        "Mix the dough ingredients.",
+        "Roll out and cut into circles.",
+        "Fill each circle.",
+        "Seal well and cook in boiling water."
+      ]
+    }
+  },
+  {
+    id: "maachal-kruv",
+    category: "sides",
+    icon: "cabbage.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "כרוב ברוטב אדום",
+      ingredients: [
+        "כרוב קטן או בינוני",
+        "בצל גדול קצוץ",
+        "3 כפות שמן",
+        "מלח, פלפל, כפית קימל",
+        "100 גרם רסק עגבניות",
+        "כף אבקת מרק"
+      ],
+      steps: [
+        "מחממים שמן.",
+        "מזהיבים בצל.",
+        "מוסיפים כרוב חתוך גס ומאדים מכוסה.",
+        "מוסיפים תבלינים, רסק עגבניות, קימל ומים.",
+        "מבשלים כחצי שעה."
+      ]
+    },
+    en: {
+      title: "Cabbage in Red Sauce",
+      ingredients: [
+        "1 small or medium cabbage",
+        "1 large onion, chopped",
+        "3 tbsp oil",
+        "Salt, pepper, 1 tsp caraway",
+        "100 g tomato paste",
+        "1 tbsp stock powder"
+      ],
+      steps: [
+        "Heat the oil.",
+        "Colour the onion.",
+        "Add the roughly chopped cabbage and let it steam, covered.",
+        "Add the spices, tomato paste, caraway and water.",
+        "Cook for about half an hour."
+      ]
+    }
+  },
+  {
+    id: "ktzitzot-yerek",
+    category: "mains",
+    icon: "meatballs.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "קציצות ירק",
+      ingredients: [
+        "3 תפוחי אדמה גדולים",
+        "2 קישואים, 2 גזרים",
+        "בצל גדול",
+        "3 שיני שום קצוצות",
+        "1/2 כוס פטרוזיליה",
+        "4 ביצים",
+        "2 כפות קמח",
+        "כפית כורכום, מלח, פלפל"
+      ],
+      steps: [
+        "מגררים את הירקות וסוחטים היטב מנוזלים.",
+        "מוסיפים פטרוזיליה, קמח, ביצים ותבלינים.",
+        "מערבבים ויוצרים קציצות.",
+        "מטגנים בשמן חם."
+      ]
+    },
+    en: {
+      title: "Vegetable Patties",
+      ingredients: [
+        "3 large potatoes",
+        "2 courgettes, 2 carrots",
+        "1 large onion",
+        "3 garlic cloves, chopped",
+        "1/2 cup parsley",
+        "4 eggs",
+        "2 tbsp flour",
+        "1 tsp turmeric, salt, pepper"
+      ],
+      steps: [
+        "Grate the vegetables and squeeze out the liquid thoroughly.",
+        "Add the parsley, flour, eggs and spices.",
+        "Mix and shape into patties.",
+        "Fry in hot oil."
+      ]
+    }
+  },
+  {
+    id: "coleslaw",
+    category: "salads",
+    icon: "salad.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "סלט קולסלאו",
+      ingredients: [
+        "סלק מגורר (או כרוב מגורר)",
+        "קולרבי מגורר",
+        "4 כפות שמן זית",
+        "4 כפות מיץ לימון",
+        "מלח, פלפל שחור גרוס",
+        "פטרוזיליה קצוצה"
+      ],
+      steps: [
+        "מערבבים את כל החומרים.",
+        "מגישים."
+      ]
+    },
+    en: {
+      title: "Coleslaw",
+      ingredients: [
+        "Grated beetroot (or grated cabbage)",
+        "Grated kohlrabi",
+        "4 tbsp olive oil",
+        "4 tbsp lemon juice",
+        "Salt, cracked black pepper",
+        "Parsley, chopped"
+      ],
+      steps: [
+        "Mix everything together.",
+        "Serve."
+      ]
+    }
+  },
+  {
+    id: "salat-tapuchei-adama",
+    category: "salads",
+    icon: "salad.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "סלט תפוחי אדמה",
+      ingredients: [
+        "תפוחי אדמה מבושלים",
+        "כפית פלפל גרוס, מלח",
+        "כף מיונז",
+        "כפית חרדל",
+        "מיץ מ-1/2 לימון",
+        "4 כפות שמן זית",
+        "5 עלי פטרוזיליה",
+        "כף מים קרים",
+        "בצל ירוק (רשות)"
+      ],
+      steps: [
+        "חותכים את תפוחי האדמה לקוביות.",
+        "מערבבים את חומרי הרוטב.",
+        "יוצקים אותם מעל."
+      ]
+    },
+    en: {
+      title: "Potato Salad",
+      ingredients: [
+        "Boiled potatoes",
+        "1 tsp cracked pepper, salt",
+        "1 tbsp mayonnaise",
+        "1 tsp mustard",
+        "Juice of 1/2 lemon",
+        "4 tbsp olive oil",
+        "5 parsley leaves",
+        "1 tbsp cold water",
+        "Spring onion (optional)"
+      ],
+      steps: [
+        "Cut the potatoes into cubes.",
+        "Mix the dressing ingredients.",
+        "Pour it over the top."
+      ]
+    }
+  },
+  {
+    id: "malai",
+    category: "desserts",
+    icon: "cake.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "מליאנו (Malai)",
+      ingredients: [
+        "300 גרם קמח תירס עם 2/3 ליטר חלב רותח (לקרר)",
+        "2 גביעי אשל",
+        "3 ביצים שלמות",
+        "3/4 כוס סוכר",
+        "4 כפות שמן",
+        "2 כפות קמח רגיל",
+        "גבינה כנענית"
+      ],
+      steps: [
+        "מערבבים את כל המצרכים.",
+        "יוצקים לתבנית משומנת.",
+        "אופים כשעה."
+      ]
+    },
+    en: {
+      title: "Malai",
+      ingredients: [
+        "300 g cornmeal with 2/3 litre boiling milk (leave to cool)",
+        "2 tubs of soured cream",
+        "3 whole eggs",
+        "3/4 cup sugar",
+        "4 tbsp oil",
+        "2 tbsp plain flour",
+        "Soft white cheese"
+      ],
+      steps: [
+        "Mix all the ingredients.",
+        "Pour into a greased tin.",
+        "Bake for about an hour."
+      ]
+    }
+  },
+  {
+    id: "ugat-mishmesh",
+    category: "desserts",
+    icon: "cake.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "עוגת משמש",
+      ingredients: [
+        "12 משמשים חצויים",
+        "4 כפות סוכר",
+        "3 כפיות קוניאק",
+        "3 ביצים שלמות",
+        "200 גרם סוכר",
+        "200 גרם חמאה",
+        "210 גרם קמח תופח"
+      ],
+      steps: [
+        "מערבבים את המשמשים עם 2 כפות סוכר וקוניאק.",
+        "מקציפים ביצים עם חמאה, סוכר וקמח.",
+        "יוצקים לתבנית.",
+        "מסדרים את המשמשים מעל.",
+        "אופים."
+      ]
+    },
+    en: {
+      title: "Apricot Cake",
+      ingredients: [
+        "12 apricots, halved",
+        "4 tbsp sugar",
+        "3 tsp cognac",
+        "3 whole eggs",
+        "200 g sugar",
+        "200 g butter",
+        "210 g self-raising flour"
+      ],
+      steps: [
+        "Mix the apricots with 2 tbsp of the sugar and the cognac.",
+        "Whisk the eggs with the butter, sugar and flour.",
+        "Pour into a tin.",
+        "Arrange the apricots on top.",
+        "Bake."
+      ]
+    }
+  },
+  {
+    id: "ugat-shokolad",
+    category: "desserts",
+    icon: "cake.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "עוגת שוקולד קלה",
+      ingredients: [
+        "כוס קמח",
+        "כוס סוכר",
+        "1/2 כוס קקאו",
+        "כפית אבקת אפייה",
+        "1/2 כפית סודה לשתייה",
+        "ביצה",
+        "1/2 כוס חלב (או מים)",
+        "1/4 כוס שמן",
+        "1/2 כוס מים רותחים"
+      ],
+      steps: [
+        "מערבבים בקערה את החומרים היבשים.",
+        "מוסיפים ביצה, חלב ושמן ומערבבים.",
+        "מוסיפים את המים הרותחים לבלילה.",
+        "יוצקים לתבנית משומנת.",
+        "אופים כ-30 דקות ב-180 מעלות."
+      ]
+    },
+    en: {
+      title: "Easy Chocolate Cake",
+      ingredients: [
+        "1 cup flour",
+        "1 cup sugar",
+        "1/2 cup cocoa",
+        "1 tsp baking powder",
+        "1/2 tsp bicarbonate of soda",
+        "1 egg",
+        "1/2 cup milk (or water)",
+        "1/4 cup oil",
+        "1/2 cup boiling water"
+      ],
+      steps: [
+        "Mix the dry ingredients in a bowl.",
+        "Add the egg, milk and oil and mix.",
+        "Add the boiling water to the batter.",
+        "Pour into a greased tin.",
+        "Bake about 30 minutes at 180C."
+      ]
+    }
+  },
+  {
+    id: "oznei-haman",
+    category: "desserts",
+    icon: "hamantash.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "אוזני המן",
+      ingredients: [
+        "5 חלמונים",
+        "2 חלבונים",
+        "10 כפות סוכר",
+        "10 כפות שמן (או חמאה או מרגרינה)",
+        "5 כפות סודה לשתייה (או אבקת אפייה)",
+        "קמח תופח",
+        "גרידת לימון"
+      ],
+      steps: [
+        "מערבבים לבצק אחיד.",
+        "מרדדים.",
+        "קורצים עיגולים.",
+        "ממלאים במילוי הרצוי.",
+        "מקפלים לצורת אוזני המן.",
+        "אופים."
+      ]
+    },
+    en: {
+      title: "Hamantaschen",
+      ingredients: [
+        "5 egg yolks",
+        "2 egg whites",
+        "10 tbsp sugar",
+        "10 tbsp oil (or butter or margarine)",
+        "5 tbsp bicarbonate of soda (or baking powder)",
+        "Self-raising flour",
+        "Lemon zest"
+      ],
+      steps: [
+        "Mix to a smooth dough.",
+        "Roll it out.",
+        "Cut out circles.",
+        "Add the filling of your choice.",
+        "Fold into the three-cornered shape.",
+        "Bake."
+      ]
+    }
+  },
+  {
+    id: "ugiyot-rahat",
+    category: "desserts",
+    icon: "cookie.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "עוגיות רחת לוקום",
+      ingredients: [
+        "300 גרם קמח",
+        "200 גרם שמנת",
+        "200 גרם מרגרינה (או חמאה)",
+        "קורט מלח",
+        "רחת לוקום למילוי"
+      ],
+      steps: [
+        "מערבבים לבצק.",
+        "מרדדים עלה דק.",
+        "חותכים למשולשים.",
+        "ממלאים ברחת לוקום.",
+        "מגלגלים ואופים."
+      ]
+    },
+    en: {
+      title: "Turkish Delight Cookies",
+      ingredients: [
+        "300 g flour",
+        "200 g cream",
+        "200 g margarine (or butter)",
+        "A pinch of salt",
+        "Turkish delight for the filling"
+      ],
+      steps: [
+        "Mix to a dough.",
+        "Roll out a thin sheet.",
+        "Cut into triangles.",
+        "Put a piece of Turkish delight on each.",
+        "Roll up and bake."
+      ]
+    }
+  },
+  {
+    id: "kadurei-shokolad",
+    category: "desserts",
+    icon: "candy.png",
+    image: "", time: "", servings: "",
+    he: {
+      title: "כדורי שוקולד",
+      ingredients: [
+        "100 גרם תמרים מגולענים",
+        "3 כפות יין אדום",
+        "4 כפות ברנדי",
+        "100 גרם אגוזים קצוצים או שקדים",
+        "1/2 כוס סוכר",
+        "כף אבקת קקאו",
+        "תמצית וניל",
+        "100 גרם מרגרינה או חמאה"
+      ],
+      steps: [
+        "ממיסים את המרגרינה בקערה.",
+        "מוסיפים יין, ברנדי ותמרים.",
+        "מוסיפים סוכר, קקאו, אגוזים ותמצית וניל.",
+        "מקררים.",
+        "יוצרים כדורים ומגלגלים בקוקוס או בסוכריות."
+      ]
+    },
+    en: {
+      title: "Chocolate Balls",
+      ingredients: [
+        "100 g pitted dates",
+        "3 tbsp red wine",
+        "4 tbsp brandy",
+        "100 g chopped walnuts or almonds",
+        "1/2 cup sugar",
+        "1 tbsp cocoa powder",
+        "Vanilla extract",
+        "100 g margarine or butter"
+      ],
+      steps: [
+        "Melt the margarine in a bowl.",
+        "Add the wine, brandy and dates.",
+        "Add the sugar, cocoa, nuts and vanilla.",
+        "Chill.",
+        "Roll into balls and coat in coconut or sprinkles."
+      ]
+    }
+  },
+  {
+    id: "blintzes",
+    category: "desserts",
+    icon: "pancake.png",
+    image: "", time: "", servings: "",
+    he: {
+      title: "בלינצ'ס",
+      ingredients: [
+        "4 ביצים",
+        "קורט מלח",
+        "100 גרם אבקת סוכר",
+        "180 גרם קמח",
+        "500 מ\"ל חלב",
+        "חמאה מומסת"
+      ],
+      steps: [
+        "מערבבים לבלילה חלקה.",
+        "יוצקים למחבת משומנת במעט חמאה.",
+        "מזהיבים משני הצדדים."
+      ]
+    },
+    en: {
+      title: "Blintzes",
+      ingredients: [
+        "4 eggs",
+        "A pinch of salt",
+        "100 g icing sugar",
+        "180 g flour",
+        "500 ml milk",
+        "Melted butter"
+      ],
+      steps: [
+        "Mix to a smooth batter.",
+        "Pour into a pan greased with a little butter.",
+        "Colour on both sides."
+      ]
+    }
+  },
+  {
+    id: "agasim-bayain",
+    category: "desserts",
+    icon: "pear.png",
+    image: "", time: "", servings: "",
+    he: {
+      title: "אגסים ביין",
+      ingredients: [
+        "4 כוסות יין אדום יבש",
+        "2 כוסות סוכר חום בהיר",
+        "8 אגסים קלופים",
+        "מקל קינמון",
+        "מקל וניל"
+      ],
+      steps: [
+        "מבשלים את האגסים ביין עם התבלינים כחצי שעה על חום בינוני-נמוך, עד שהתרככו."
+      ]
+    },
+    en: {
+      title: "Pears in Wine",
+      ingredients: [
+        "4 cups dry red wine",
+        "2 cups light brown sugar",
+        "8 pears, peeled",
+        "1 cinnamon stick",
+        "1 vanilla pod"
+      ],
+      steps: [
+        "Simmer the pears in the wine with the spices for about half an hour over a medium-low heat, until soft."
+      ]
+    }
+  },
+  {
+    id: "afarsekim-glida",
+    category: "desserts",
+    icon: "icecream.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "אפרסקים עם גלידה",
+      ingredients: [
+        "אפרסקים חצויים",
+        "2 כפות דבש",
+        "ברנדי",
+        "גלידת וניל"
+      ],
+      steps: [
+        "מרתיחים במחבת דבש וברנדי ליצירת קרמל.",
+        "מכניסים את האפרסקים לתוך הרוטב.",
+        "מוציאים לצלחת.",
+        "מוסיפים גלידת וניל ומוזגים מהרוטב מסביב."
+      ]
+    },
+    en: {
+      title: "Peaches with Ice Cream",
+      ingredients: [
+        "Peaches, halved",
+        "2 tbsp honey",
+        "Brandy",
+        "Vanilla ice cream"
+      ],
+      steps: [
+        "Boil the honey and brandy in a pan to make a caramel.",
+        "Put the peaches into the sauce.",
+        "Lift them onto a plate.",
+        "Add vanilla ice cream and spoon the sauce around."
+      ]
+    }
+  },
+  {
+    id: "ribat-agvaniyot",
+    category: "desserts",
+    icon: "pickle-jar.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "ריבת עגבניות שרי",
+      ingredients: [
+        "1 ק\"ג עגבניות שרי חתוכות לחצי",
+        "1 ק\"ג סוכר",
+        "מיץ מ-1/4 לימון",
+        "תפוח ירוק מגורר"
+      ],
+      steps: [
+        "מבשלים בסיר על אש קטנה את העגבניות והסוכר.",
+        "מוסיפים לימון ותפוח ירוק.",
+        "מבשלים עד להסמכה."
+      ]
+    },
+    en: {
+      title: "Cherry Tomato Jam",
+      ingredients: [
+        "1 kg cherry tomatoes, halved",
+        "1 kg sugar",
+        "Juice of 1/4 lemon",
+        "1 green apple, grated"
+      ],
+      steps: [
+        "Cook the tomatoes and sugar in a pot over a low heat.",
+        "Add the lemon and grated apple.",
+        "Cook until thickened."
+      ]
+    }
+  },
+  {
+    id: "sufganiyot-eshel",
+    category: "desserts",
+    icon: "doughnut.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "סופגניות אשל",
+      ingredients: [
+        "לבצק:",
+        "2½ כוסות קמח רגיל",
+        "2 כפות אבקת אפייה",
+        "2 ביצים",
+        "2 גביעי אשל (או יוגורט)",
+        "2 כפות סוכר",
+        "תמצית וניל",
+        "1/4 כפית מלח",
+        "לסירופ:",
+        "כוס סוכר (250 גרם)",
+        "כוס מים",
+        "1/4 כפית כורכום, מלח, פלפל אנגלי"
+      ],
+      steps: [
+        "מערבבים את מצרכי הבצק לבלילה אחידה.",
+        "מפילים כפות מהבלילה לתוך שמן עמוק וחם עד להזהבה.",
+        "מבשלים את רכיבי הסירופ.",
+        "טובלים בו את הסופגניות החמות."
+      ]
+    },
+    en: {
+      title: "Yoghurt Doughnuts",
+      ingredients: [
+        "For the batter:",
+        "2 1/2 cups plain flour",
+        "2 tbsp baking powder",
+        "2 eggs",
+        "2 tubs soured cream (or yoghurt)",
+        "2 tbsp sugar",
+        "Vanilla extract",
+        "1/4 tsp salt",
+        "For the syrup:",
+        "1 cup sugar (250 g)",
+        "1 cup water",
+        "1/4 tsp turmeric, salt, allspice"
+      ],
+      steps: [
+        "Mix the batter ingredients until smooth.",
+        "Drop spoonfuls into hot deep oil and fry until golden.",
+        "Cook the syrup ingredients together.",
+        "Dip the hot doughnuts in it."
+      ]
+    }
+  },
+  {
+    id: "ugiyot-kafe",
+    category: "desserts",
+    icon: "cookie.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "עוגיות קפה נמס",
+      ingredients: [
+        "100 גרם מרגרינה",
+        "1/2 כוס סוכר",
+        "ביצה",
+        "1/2 כפית קפה נמס",
+        "1½ כוסות קמח רגיל",
+        "1/2 שקית אבקת אפייה"
+      ],
+      steps: [
+        "מערבבים את כל החומרים לבצק.",
+        "יוצרים עיגולים ומועכים קלות.",
+        "אופים 15 דקות."
+      ]
+    },
+    en: {
+      title: "Coffee Cookies",
+      ingredients: [
+        "100 g margarine",
+        "1/2 cup sugar",
+        "1 egg",
+        "1/2 tsp instant coffee",
+        "1 1/2 cups plain flour",
+        "1/2 sachet baking powder"
+      ],
+      steps: [
+        "Mix everything into a dough.",
+        "Roll into balls and press them down lightly.",
+        "Bake for 15 minutes."
+      ]
+    }
+  },
+  {
+    id: "rugelach",
+    category: "desserts",
+    icon: "cookie.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "רוגלך עדינות מאוד",
+      ingredients: [
+        "300 גרם קמח",
+        "200 גרם שמנת רגילה",
+        "200 גרם מרגרינה",
+        "קורט מלח",
+        "ריבה או מילוי אהוב"
+      ],
+      steps: [
+        "מרכיבים את הבצק ונותנים לו לנוח.",
+        "מרדדים עלה.",
+        "חותכים לריבועים או משולשים.",
+        "ממלאים בכל ריבה או מילוי אהוב.",
+        "מגלגלים ואופים."
+      ]
+    },
+    en: {
+      title: "Very Delicate Rugelach",
+      ingredients: [
+        "300 g flour",
+        "200 g cream",
+        "200 g margarine",
+        "A pinch of salt",
+        "Jam, or any filling you like"
+      ],
+      steps: [
+        "Bring the dough together and let it rest.",
+        "Roll out a sheet.",
+        "Cut into squares or triangles.",
+        "Fill with any jam or filling you like.",
+        "Roll up and bake."
+      ]
+    }
+  },
+  {
+    id: "levivot-gvina",
+    category: "desserts",
+    icon: "pancake.png",
+    image: "", time: "", servings: "",
+    he: {
+      title: "לביבות גבינה",
+      ingredients: [
+        "גבינה 9%",
+        "ביצה",
+        "2 כפות סוכר",
+        "תמצית וניל",
+        "4 כפות קמח",
+        "מעט אבקת אפייה"
+      ],
+      steps: [
+        "מרכיבים ומערבבים את כל החומרים.",
+        "מטגנים לביבות במחבת.",
+        "מפזרים אבקת סוכר מעל."
+      ]
+    },
+    en: {
+      title: "Cheese Pancakes",
+      ingredients: [
+        "9% soft white cheese",
+        "1 egg",
+        "2 tbsp sugar",
+        "Vanilla extract",
+        "4 tbsp flour",
+        "A little baking powder"
+      ],
+      steps: [
+        "Mix all the ingredients together.",
+        "Fry as small pancakes in a pan.",
+        "Dust with icing sugar."
+      ]
+    }
+  },
+  {
+    id: "ugat-dvash",
+    category: "desserts",
+    icon: "cake.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "עוגת דבש",
+      ingredients: [
+        "3 ביצים",
+        "100 גרם סוכר",
+        "300 גרם קמח",
+        "300 גרם דבש",
+        "כוס שמן",
+        "קורט מלח",
+        "קורט סודה לשתייה",
+        "1/4 כוס מים מתובלים (או תה או ציפורן)"
+      ],
+      steps: [
+        "מערבבים את כל הרכיבים לבלילה אחידה.",
+        "יוצקים לתבנית.",
+        "אופים."
+      ]
+    },
+    en: {
+      title: "Honey Cake",
+      ingredients: [
+        "3 eggs",
+        "100 g sugar",
+        "300 g flour",
+        "300 g honey",
+        "1 cup oil",
+        "A pinch of salt",
+        "A pinch of bicarbonate of soda",
+        "1/4 cup spiced water (or tea, or clove)"
+      ],
+      steps: [
+        "Mix everything into a smooth batter.",
+        "Pour into a tin.",
+        "Bake."
+      ]
+    }
+  },
+  {
+    id: "chremzlach",
+    category: "desserts",
+    icon: "doughnut.svg",
+    image: "", time: "", servings: "",
+    he: {
+      title: "חרמזלך",
+      ingredients: [
+        "לכדורים:",
+        "1½ כוס קמח מצה",
+        "1¼ כוס מים רותחים",
+        "4 ביצים",
+        "50 גרם אגוזים",
+        "3/4 כוס סוכר",
+        "וניל, מיץ לימון",
+        "לרוטב:",
+        "כוס יין אדום מתוק",
+        "1/2 כוס סוכר",
+        "2 כפות דבש",
+        "רום"
+      ],
+      steps: [
+        "מרכיבים ומערבבים את כל חומרי הכדורים.",
+        "מטגנים בשמן עמוק.",
+        "מרתיחים את מצרכי הרוטב.",
+        "מוסיפים רום.",
+        "יוצקים על הכדורים החמים תוך הבאה לידי רתיחה."
+      ]
+    },
+    en: {
+      title: "Chremzlach",
+      ingredients: [
+        "For the balls:",
+        "1 1/2 cups matzo meal",
+        "1 1/4 cups boiling water",
+        "4 eggs",
+        "50 g walnuts",
+        "3/4 cup sugar",
+        "Vanilla, lemon juice",
+        "For the sauce:",
+        "1 cup sweet red wine",
+        "1/2 cup sugar",
+        "2 tbsp honey",
+        "Rum"
+      ],
+      steps: [
+        "Mix all the ingredients for the balls together.",
+        "Deep fry them.",
+        "Bring the sauce ingredients to the boil.",
+        "Add the rum.",
+        "Pour over the hot balls, bringing it back to the boil."
+      ]
+    }
   }
 ];

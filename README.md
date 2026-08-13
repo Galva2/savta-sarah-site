@@ -22,7 +22,7 @@ Open `index.html` and it runs.
   geometry, and its x-height turned out to be within 0.4% of Yarden's — so body
   copy needs no size compensation, only headings do.
 - **Everything self-hosted.** Fonts, icons, images. No CDN, no external request.
-- **Content is one file.** `assets/js/data.js` holds all 24 recipes, both
+- **Content is one file.** `assets/js/data.js` holds all 58 recipes, both
   languages, all UI strings. Adding a recipe means copying one object.
 
 ### Notes
@@ -53,7 +53,7 @@ the family's consent and limited to the grandmother herself.
 | 4 | זמן הכנה וכמות מנות (אופציונלי) | ראו "זמן הכנה וכמות" למטה |
 | 5 | השלמת אופן ההכנה של קרפלך | ראו "הערות על התוכן" למטה |
 
-**המתכונים כבר בפנים** — 24 מתכונים: 3 סלטים, 4 מרקים, 7 עיקריות, 4 תוספות, 6 קינוחים.
+**המתכונים כבר בפנים** — 58 מתכונים: 5 סלטים, 4 מרקים, 17 עיקריות, 10 תוספות, 22 קינוחים.
 
 ---
 
@@ -116,7 +116,7 @@ icon: "soup.svg",     // שם הקובץ בתוך assets/img/icons/, כולל ה
 | מקור | קבצים |
 |-------|--------|
 | Streamline (PNG) | candy, carrot, celery, chicken, corn, cucumber, cupcake, drumstick, eggplant, lettuce, measuringcup, onion, pancake, pear, pretzel, rollingpin, tomato |
-| צוירו לאתר (SVG) | bread, cheese-dumpling, cookie, doughnut, dumpling, lentils, meatballs, noodles, pan, pasta, pickle-jar, salad, soup |
+| צוירו לאתר (SVG) | bread, cabbage, cake, cheese-dumpling, cookie, doughnut, dumpling, egg, hamantash, icecream, lentils, meatballs, noodles, pan, pasta, pickle-jar, salad, soup, stuffed-roll |
 
 ה-SVG-ים צוירו במיוחד כי לחבילת Streamline לא היו קערת מרק, קציצות, סופגנייה
 או עוגייה. הם באותו סגנון: קו שחור אחיד, בלי מילוי, `viewBox` של 48×48 ועובי

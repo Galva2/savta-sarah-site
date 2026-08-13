@@ -919,7 +919,10 @@ const RECIPES = [
       steps: [
         "לשים לבצק אחיד ולתת לו לנוח.",
         "לרסק את תפוחי האדמה המבושלים עם מלח לפירה.",
-        "לערבב את הפירה עם הבצל המטוגן."
+        "לערבב את הפירה עם הבצל המטוגן.",
+        "מרדדים את הבצק וקורצים עיגולים.",
+        "ממלאים כל עיגול במילוי.",
+        "סוגרים היטב ומבשלים במים רותחים."
       ]
     },
     en: {
@@ -937,7 +940,10 @@ const RECIPES = [
       steps: [
         "Knead to a smooth dough and let it rest.",
         "Mash the boiled potatoes with salt.",
-        "Mix the mash with the fried onion."
+        "Mix the mash with the fried onion.",
+        "Roll the dough out and cut out circles.",
+        "Fill each circle.",
+        "Seal well and cook in boiling water."
       ]
     }
   },
@@ -1572,7 +1578,7 @@ const RECIPES = [
     icon: "meatballs.svg",
     image: "", time: "", servings: "",
     he: {
-      title: "כדורי שניצל מאורז",
+      title: "כדורי שניצל",
       ingredients: [
         "1/2 ק\"ג בשר עוף טחון",
         "ביצה",
